@@ -1,0 +1,61 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/open-sans/OpenSans-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/open-sans/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/open-sans/OpenSans-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/open-sans/OpenSans-Bold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/open-sans/OpenSans-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GoodTimes";
+  src: url("/fonts/goodtimes/GoodTimes-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.font-sans{
+  font-family: "OpenSans";
+}
+
+.bg-darker{
+  background: #1C1C1C;
+}
+
+.profile-container{
+  min-height: 1000px;
+}
